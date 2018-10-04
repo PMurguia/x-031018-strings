@@ -135,50 +135,83 @@ namespace x_031018_strings
             //La contraseña deberá contener números.
             //Deberá contener al menos dos dígitos.
 
-            //AGUA
+            //bool correcto = false;
+            //string key;
+            //int numeros=0;
+
+            //do
+            //{
+            //    Console.WriteLine("Escriba una contraseña. ");
+            //    key = Console.ReadLine();
+            //    if(key.Length >=8)
+            //    {
+            //        for(int i = 0; i < key.Length; i++)
+            //        {
+            //            if (char.IsDigit(key[i]))
+            //            {
+            //                if(numeros <=2)
+            //                {
+            //                    numeros++;
+
+            //                }
+            //            }
+            //        }
+            //        if(numeros==2)
+            //        {
+            //            correcto = true;
+            //            Console.WriteLine("Contraseña Válida. ");
+            //        }
+            //    }
+            //} while (correcto == false);
+            //Console.ReadLine();
+
 
 
             //Escribe un programa que al meter tres números por teclado identifique el mínimo y el máximo (usa el método correspondiente). 
 
-            int n1, n2, n3;
-            Console.WriteLine("Dame tres números. ");
-            n1 = Int32.Parse(Console.ReadLine());
-            n2 = Int32.Parse(Console.ReadLine());
-            n3 = Int32.Parse(Console.ReadLine());
+            //int n1, n2, n3;
+            //Console.WriteLine("Dame tres números. ");
+            //n1 = Int32.Parse(Console.ReadLine());
+            //n2 = Int32.Parse(Console.ReadLine());
+            //n3 = Int32.Parse(Console.ReadLine());
 
-            int max = Math.Max(n1, n2);
-            int min = Math.Min(n1, n2);
+            //int max = Math.Max(n1, n2);
+            //int min = Math.Min(n1, n2);
 
 
-            Console.WriteLine("El máximo es: " + Math.Max(max, n3));
-            Console.WriteLine("El mínimo es: " + Math.Min(min, n3));
-            Console.ReadLine();
-            
-
-            //if (n1 > n2 && n1 > n3)
-            //{
-            //    Console.WriteLine("El máximo de esos tres números es " + n1);
-            //}
-            //else if (n2 > n1 && n2 > n3)
-            //{
-            //    Console.WriteLine("El máximo de esos tres números es " + n2);
-            //}
-            //else if (n3 > n1 && n3 > n2)
-            //{
-            //    Console.WriteLine("El máximo de esos tres números es " + n3);
-            //}
+            //Console.WriteLine("El máximo es: " + Math.Max(max, n3));
+            //Console.WriteLine("El mínimo es: " + Math.Min(min, n3));
             //Console.ReadLine();
-            //Console.WriteLine();
+
 
 
             //Escribe un programa que muestre la fecha de hoy. 
 
-            Console.WriteLine("¿Qué día es hoy?");
-            Console.WriteLine("Hora y Fecha: {0}\n", DateTime.Now);
-            Console.ReadLine();
+            //Console.WriteLine("¿Qué día es hoy?");
+            //Console.WriteLine("Hora y Fecha: {0}\n", DateTime.Now);
+            //Console.ReadLine();
 
+            //Dale la vuelta a un nombre.
 
+            //string nombre = "aubameyang";
+            //char[] array = nombre.ToCharArray();
 
+            //Array.Reverse(array);
+            //Console.Write(array);
+            //Console.ReadLine();
+
+         
+            //for(int i = 0; i < nombre.Length; i++)
+            //{
+            //    Console.Write(array[i].ToString());
+            //}
+            //Console.ReadLine();
+            
+              
+                
+
+            
+            
 
         }
 
